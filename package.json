@@ -1,0 +1,20 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "packages/__shared__/*"
+    ]
+  },
+  "scripts": {
+    "start": "yarn workspace @monorepo/01-json-server start & yarn workspace @monorepo/02-client-test dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "typescript": "^4.5.5"
+  }
+}
