@@ -5,9 +5,12 @@
   "license": "MIT",
   "workspaces": {
     "packages": [
-      "packages/*",
-      "packages/__shared__/*"
+      "projects/*",
+      "core/*"
     ]
+  },
+  "engines": {
+    "node": "14.x"
   },
   "scripts": {
     "start": "yarn workspace @monorepo/01-json-server start & yarn workspace @monorepo/02-client-test dev"
