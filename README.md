@@ -1,8 +1,6 @@
 # monorepo 
 
-## Shared libraries
-
-They are inside the folder ./packages/__shared__/ :
+## Core libraries
 
 * auth
 * axios-config
